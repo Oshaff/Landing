@@ -1,0 +1,162 @@
+body, html{
+    font-family:"Roboto",sans-serif;
+    padding: 0;
+    margin:0;
+}
+
+.blue {
+    background-color: #1F2937;
+}
+.align {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 16px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb
+}
+
+ul {
+    font-size: 18px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold; 
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+.hero {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    max-width: 500px;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #F9FAF8;
+    opacity: .5;
+    margin-top: 10px;
+}
+
+.text{
+    font-size: 18px;
+    color: black;
+}
+
+button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.panda{
+    margin-bottom: 80px;
+    max-width: 50%;
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 25px 25px black;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.container {
+    display: flex;   
+    justify-content: center;
+    gap: 50px;
+    
+}
+.content {
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.fp{
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 25px 25px 5px rgba(0,0,0,0.2);
+}
+
+.qbox {
+    display: flex;
+    background-color: hsl(220, 13%, 91%);
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.attest {
+    align-self: flex-end;
+    font-weight: bold;
+    padding-bottom: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    padding: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    color: #F9FAF8;
+    
+}
+
+.ctahead{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ctabody{
+    font-size: 12px;
+    margin-top: 10px;
+}
